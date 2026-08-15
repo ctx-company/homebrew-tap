@@ -7,28 +7,28 @@
 class Ctx < Formula
   desc "ctx.traits reference CLI and runtime"
   homepage "https://github.com/ctx-company/traits"
-  version "0.2.2"
+  version "0.2.3"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/ctx-company/traits/releases/download/v0.2.2/ctx-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "aa52211ecdf5caa95a1ad3f9f115fe209eed68dc8ecc3a9d90a56ff7c98743da"
+      url "https://github.com/ctx-company/traits/releases/download/v0.2.3/ctx-v0.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "32ad84369845f451cded79dafb587f8beb084c983f70dd945f6e89e68f58f94d"
     end
     on_arm do
-      url "https://github.com/ctx-company/traits/releases/download/v0.2.2/ctx-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "c9c02c5e3625e1d52941f2019e12bf7c31242078b50aded00975d29b0c62efef"
+      url "https://github.com/ctx-company/traits/releases/download/v0.2.3/ctx-v0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "c8ca4a67fa08da12c29a36906bec7d852606b2dd2b2d83fa6261b03513cd13bb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ctx-company/traits/releases/download/v0.2.2/ctx-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "32e53d68c2c51733921c376aa7f6a78fe505d1741bbdb9742b4104cdaf310100"
+      url "https://github.com/ctx-company/traits/releases/download/v0.2.3/ctx-v0.2.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4cdc56dd576336159d1016765b71e2dfc89cf7d6f09964f5ea2af2aecbf4ea67"
     end
     on_arm do
-      url "https://github.com/ctx-company/traits/releases/download/v0.2.2/ctx-v0.2.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bb9e47dc4aa6839d5ecc55479e74303250e19ccd8ae47af23499dd483cf1927a"
+      url "https://github.com/ctx-company/traits/releases/download/v0.2.3/ctx-v0.2.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d792816457d0d4a661b6526d61fa7282d096b81c847ed44af1a3325f179a1234"
     end
   end
 
